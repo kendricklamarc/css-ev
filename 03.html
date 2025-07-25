@@ -77,16 +77,24 @@
             }
 
         .motivo{
-            background-color: rgb(67, 139, 187);
             padding: 20px;
-            border-radius: 8px;
+             background-color: white;
             width: 220px;
+           border-radius: 8px;
+            color: #174b57;
             font-size: 16px;
-            color: #228192;
-            display: flex;
             align-items: center;
+             display: flex;           
+            margin-top: 15px;
             gap: 10px;
         }
+        .redes{
+            background-color: rgb(126, 184, 184);
+            display: flex;
+            justify-content: center;
+            margin-bottom: 250px;
+        }
+    
         </style>
     </head>
 
@@ -116,17 +124,29 @@
             <img src="pepsi.jpeg" alt="pepsifresca" width="500px" height="500px">
         </section>
         <section class="motivos">
-            <ul>
-                <li>1ª:se describe a menudo como una combinación de notas de vainilla, 
-                    caramelo y nuez de cola, con un toque cítrico distintivo debido al ácido cítrico añadido. </li>
-                <li>2ª:sus borbujas explosivas son las que nos ayudan a poder convservar ese savor tan unico y especial.Este gas se disuelve en el líquido durante 
-                    la producción y le da a la bebida su característica efervescencia.</li>
-                <li>3ª:su frescura inmediata te ayudara en esos momentos de calor sofocante 
-                    e insoportables ya que nos encontraras en el kiosco a la vuelta de tu casa</li>
-            </ul>
+            <h2>las tres mejores razones para beberla...</h2>
+            <div class="razones">
+                <div class="motivo">1ªsu sabor elocuente </div>
+                <div class="motivo">2ªBurbujas explosivas</div>
+                <div class="motivo">3ªfrescura inmediata</div>
+            </div>
         </section>
     </main>
 </body>
+<footer class="redes">
+    <img src="instagram.png" alt="instagram">
+    <img src="pinterest.png" alt="pinterest">
+    <img src="tik-tok.png" alt="tik-tok">
+    <img src="twitter-alt.png" alt="twitter">
+    <div>
+        <form action="">
+             <input type="nombre" id="nombre" name="nombre">
+             <input type="text" id="apellido" name="apellido">
+             <label for="gmail">gmail</label>
+<textarea name="escriba su comentario" id="comentario"></textarea>
+        </form>
+    </div>
+    </footer>
 
 </html>
 <!--list-style: none-->
